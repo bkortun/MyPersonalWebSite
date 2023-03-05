@@ -70,3 +70,15 @@ nav ul li a:hover::after {
 .header-text h1 span {
   color: #d69e3b;
 }
+
+.spacialdesign{
+  background-color: #Bab095;
+}
+.specialdevision{
+  background-color: #Bab095;
+  color: #080808;
+  text-align: center;
+  margin: 10px;
+  font-size: 45px;
+  font-family: 'Times New Roman', Times, serif;
+}

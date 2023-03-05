@@ -53,8 +53,13 @@
                                 <input type="email" placeholder="Your Email" name="guessEmail" id="guessEmail">
                                 <input type="text" placeholder="Subject" name="subject" id="subject">
                                 <textarea name="content" rows="10" placeholder="Message"></textarea>
-                                <button type="submit" class="btn btn2">Submit</button>
                             </form>
+                            <button type="submit" class="btn btn2" onclick="openPopup()">Submit</button>
+                            <div class="popup" id="popup">
+                                <h2>Thank You!</h2>
+                                <p>Your message was definitely not delivered, I'm just pretending it was</p>
+                                <button type="button" onclick="closePopup()">Ok</button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -62,6 +67,17 @@
         </div>
     </div>
     </div>
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup() {
+            console.log(popup)
+            popup.classList.add("open-popup")
+        }
+        function closePopup() {
+            popup.classList.remove("open-popup")
+        }
+    </script>
 </body>
 
 </html>
