@@ -1,31 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <div>
-    <ul>
-        <tr>
-           <a href="../home/index.html">Homepage</a> 
-        </tr>
-        <tr>
-            <a href="../aboutMe/aboutMe.html">About Me</a>                 
-        </tr>
-        <tr>
-            <a href="../contact/contact.html">Contact</a>                 
-        </tr>
-        <tr>
-            <a href="../login/login.html">Login</a>                 
-        </tr>
-    </ul>
-</div>
-    <h3>Contact</h3>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barış Kortun</title>
+    <link rel="stylesheet" href="/contact/contact.css">
+    <script type="text/javascript" src="/contact/contact.js"></script>
+    <script src="https://kit.fontawesome.com/9b464bbe37.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <p>My email => bariskorun@gmail.com</p>
-    <p>Email:</p>
-    <input type="email" name="guessEmail" id="guessEmail">
-    <p>Subject:</p>
-    <input type="text" name="subject" id="subject">
-    <p>Content:</p>
-    <textarea name="content" id="content" cols="30" rows="10"></textarea>
+    <div id="header">
+        <div class="container">
+            <div class="header-background">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="../home/index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="../about/about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="../projects/projects.html">My Projects</a>
+                        </li>
+                        <li>
+                            <a href="../contact/contact.html">Contact</a>
+                        </li>
+                        <li>
+                            <a href="../login/login.html">Login</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact</h1>
+                            <p><i class="fa-solid fa-envelope"></i>bariskorun@gmail.com</p>
+                            <p><i class="fa-solid fa-phone"></i>05557775588</p>
+                            <div class="social-icons">
+                                <a href="https://www.linkedin.com/in/bkortun/"><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://github.com/bkortun"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                            <a href="" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form>
+                                <input type="email" placeholder="Your Email" name="guessEmail" id="guessEmail">
+                                <input type="text" placeholder="Subject" name="subject" id="subject">
+                                <textarea name="content" rows="10" placeholder="Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 </body>
+
 </html>
